@@ -407,6 +407,13 @@ void keyball_oled_render_keyinfo(void) {
 #endif
 }
 
+void keyball_oled_render_layerinfo(void){
+#ifdef OLED_ENABLE
+    oled_write_P(PSTR("Layr: "), false);
+    oled_write_char(to_1x(get_highest_layer(layer_state)), false);
+#endif
+}
+
 //////////////////////////////////////////////////////////////////////////////
 // Public API functions
 
