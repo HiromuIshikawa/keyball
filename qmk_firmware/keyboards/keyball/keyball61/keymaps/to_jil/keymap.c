@@ -61,13 +61,13 @@ layer_state_t layer_state_set_user(layer_state_t state) {
     uint8_t layer = biton32(state);
     switch (layer) {
         case 0:
-            rgblight_sethsv(128, 255, 70);
+            rgblight_sethsv(128, 180, 70);
             break;
         case 1:
-            rgblight_sethsv(213, 255, 70);
+            rgblight_sethsv(213, 180, 70);
             break;
         case 2:
-            rgblight_sethsv( 64, 255, 70);
+            rgblight_sethsv( 64, 180, 70);
             break;
         case 3:
             rgblight_sethsv(11, 176, 70);

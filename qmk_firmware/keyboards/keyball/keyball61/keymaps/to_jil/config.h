@@ -24,9 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define RGBLIGHT_EFFECT_BREATHING
 #    define RGBLIGHT_EFFECT_BREATHE_MAX 70
 #    define RGBLIGHT_EFFECT_STATIC_GRADIENT
-#    define RGBLIGHT_LAYERS
 #    define RGBLIGHT_SLEEP
-#   define RGBLIGHT_DEFAULT_SAT 200
 #endif
 
 #define TAP_CODE_DELAY 5
